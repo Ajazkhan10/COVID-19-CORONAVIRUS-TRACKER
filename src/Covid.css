@@ -1,0 +1,84 @@
+.body {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+h1,
+p,
+h2 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    height: 180px;
+    width: 300px;
+    margin: 10px auto;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card_name {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(0, 0, 0, );
+
+}
+
+.card_name span {
+    font-size: 15px;
+
+}
+
+.card_total {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+
+}
+
+.card1 {
+    background-color: rgb(234, 0, 255);
+}
+
+.card2 {
+    background: rgb(0, 255, 13);
+}
+
+.card3 {
+    background: rgb(230, 30, 30);
+}
+
+.card4 {
+    background: rgb(255, 196, 0);
+}
+
+.card5 {
+    background: rgb(152, 173, 57);
+}
+
+.card6 {
+    background: rgb(0, 243, 252);
+}
+
+.card7 {
+    background: rgb(87, 22, 87);
+}
+
+.card8 {
+    background: rgb(109, 21, 43);
+}
